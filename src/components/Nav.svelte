@@ -24,7 +24,7 @@
    .line-1,
    .line-2 {
       width: 50px;
-      height: 5px;
+      height: 3px;
       border-radius: 20px;
       background-color: #8892b0;
    }
