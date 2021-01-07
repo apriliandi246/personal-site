@@ -15,7 +15,7 @@
    }
 
    ul li {
-      padding: 10px;
+      padding: 11px;
       color: #ccd8e2;
       margin-top: 17px;
       font-size: 1.3rem;
@@ -87,7 +87,7 @@
       font-size: 3rem;
       margin-top: 14px;
       font-weight: bold;
-      line-height: 44px;
+      line-height: 47px;
       font-family: monospace;
       text-shadow: 5px 4px 3px #0a192f;
    }
@@ -129,8 +129,7 @@
    .project {
       padding: 17px;
       margin-top: 30px;
-      border-radius: 4px;
-      border: 3px solid #273742;
+      border: 1px solid #8892b0;
    }
 
    .project__title {
@@ -165,9 +164,9 @@
 
    .project__more {
       display: flex;
-      padding: 11px;
+      padding: 13px;
       cursor: pointer;
-      margin-top: 30px;
+      margin-top: 40px;
       align-items: center;
       border-radius: 100px;
       text-decoration: none;
@@ -181,13 +180,14 @@
    }
 
    .project__more img {
-      margin-right: 13px;
+      margin-right: 15px;
    }
 
    .project__more p {
       color: #ccd8e2;
       font-size: 1.2rem;
       font-weight: bold;
+      letter-spacing: 1px;
    }
 
    .contact__desc {
@@ -197,6 +197,13 @@
 
    .email {
       letter-spacing: 1px;
+   }
+
+   @media screen and (min-width: 770px) {
+      p {
+         line-height: 26px;
+         font-size: calc(1.2rem + 0.1px - 2px);
+      }
    }
 </style>
 
@@ -212,12 +219,12 @@
       </p>
       <p class="about__desc-2">
          Currently, i am working for my personal project, and that project i use
-         often.
+         often when i make some application.
       </p>
    </section>
 
    <section class="skills">
-      <h1 class="title">Skills</h1>
+      <h1 class="title">My Skills</h1>
       <div class="line" />
 
       <p class="skills__desc">

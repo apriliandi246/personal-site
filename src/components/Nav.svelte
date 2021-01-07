@@ -7,7 +7,12 @@
       justify-content: flex-end;
    }
 
-   .github_icon,
+   .github_icon {
+      width: 25px;
+      height: 25px;
+      transition: transform 0.2s;
+   }
+
    .linkedin_icon {
       width: 22px;
       height: 22px;
@@ -17,7 +22,7 @@
    .twitter_icon {
       width: 42px;
       height: 42px;
-      margin-inline: 30px;
+      margin-inline: 28px;
       transition: transform 0.2s;
    }
 
@@ -30,17 +35,17 @@
    }
 
    .line-1 {
-      margin-right: 16px;
+      margin-right: 18px;
    }
 
    .line-2 {
-      margin-left: 16px;
+      margin-left: 18px;
    }
 
    .github_icon:hover,
    .twitter_icon:hover,
    .linkedin_icon:hover {
-      transform: scale(1.3);
+      transform: scale(1.2);
    }
 </style>
 
