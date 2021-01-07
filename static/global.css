@@ -141,3 +141,7 @@ table {
 .cf:after {
    clear: both;
 }
+
+body {
+   background-color: #2e1f3b;
+}
