@@ -1,3 +1,7 @@
+<script>
+   import { fade } from "svelte/transition";
+</script>
+
 <style>
    nav {
       display: flex;
@@ -49,7 +53,7 @@
    }
 </style>
 
-<nav>
+<nav in:fade={{ duration: 500 }}>
    <div class="line-1" />
    <a href="https://github.com/apriliandi246" target="_blank" rel="noopener">
       <img class="github_icon" src="/github.png" alt="github" />

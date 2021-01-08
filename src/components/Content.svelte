@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <style>
    p {
       color: #ccd8e2;
@@ -195,10 +192,6 @@
       margin-bottom: 10px;
    }
 
-   .email {
-      letter-spacing: 1px;
-   }
-
    @media screen and (min-width: 770px) {
       p {
          line-height: 26px;
@@ -218,8 +211,7 @@
          I'm self taught programmer focus on Front-End.
       </p>
       <p class="about__desc-2">
-         Currently, i am working for my personal project, and that project i use
-         often when i make some application.
+         Currently, i am working for my personal project.
       </p>
    </section>
 
@@ -328,7 +320,7 @@
       </p>
 
       <ul>
-         <li class="email">apriliandi642@gmail.com</li>
+         <li>apriliandi642@gmail.com</li>
          <li>
             <a
                href="https://twitter.com/calon_jenazah__"

@@ -1,6 +1,17 @@
 <script>
+   import { onMount } from "svelte";
+   import { fade } from "svelte/transition";
    import Nav from "../components/Nav.svelte";
+   import Bouncer from "../components/Bouncer.svelte";
    import Introdcution from "../components/Content.svelte";
+
+   let isReady = false;
+
+   onMount(() => {
+      setTimeout(() => {
+         isReady = true;
+      }, 2600);
+   });
 </script>
 
 <style>
@@ -68,8 +79,16 @@
    <title>Apriliandi</title>
 </svelte:head>
 
-<Nav />
+{#if isReady === false}
+   <Bouncer />
+{/if}
 
-<div class="container">
-   <Introdcution />
-</div>
+{#key isReady}
+   {#if isReady === true}
+      <Nav />
+
+      <div class="container" in:fade={{ duration: 500 }}>
+         <Introdcution />
+      </div>
+   {/if}
+{/key}
