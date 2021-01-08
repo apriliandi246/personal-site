@@ -51,7 +51,7 @@
 
    footer p {
       font-size: 2rem;
-      margin-inline: 25px;
+      margin-inline: 20px;
    }
 
    .container {
@@ -66,9 +66,9 @@
    }
 
    .line-2 {
-      height: 3px;
-      width: 120px;
-      border-radius: 50%;
+      width: 70px;
+      height: 4px;
+      border-radius: 20px;
       background-color: #8892b0;
    }
 
@@ -111,16 +111,6 @@
    .skills__desc {
       margin-top: 28px;
       margin-bottom: 10px;
-   }
-
-   .skills {
-      margin-top: 120px;
-   }
-
-   footer,
-   .contact,
-   .projects {
-      margin-top: 120px;
    }
 
    .project {
@@ -190,6 +180,13 @@
    .contact__desc {
       margin-top: 28px;
       margin-bottom: 10px;
+   }
+
+   footer,
+   .contact,
+   .projects,
+   .skills {
+      margin-top: 150px;
    }
 
    @media screen and (min-width: 770px) {

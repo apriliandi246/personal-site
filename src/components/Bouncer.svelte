@@ -3,22 +3,15 @@
 </script>
 
 <style>
-   .container {
-      margin: auto;
-      width: 100vw;
-      display: flex;
-      height: 100vh;
-      overflow: hidden;
-      align-items: center;
-      justify-content: center;
-   }
-
    .bouncer-1 {
-      width: 108px;
+      top: 50%;
+      left: 50%;
+      width: 115px;
       display: flex;
       height: 100px;
-      text-align: center;
+      position: absolute;
       align-items: center;
+      margin: -60px 0 0 -60px;
       justify-content: space-between;
    }
 
@@ -58,11 +51,9 @@
    }
 </style>
 
-<div class="container">
-   <div class="bouncer-1" out:fade={{ duration: 200 }}>
-      <div class="ball" />
-      <div class="ball" />
-      <div class="ball" />
-      <div class="ball" />
-   </div>
+<div class="bouncer-1" out:fade={{ duration: 200 }}>
+   <div class="ball" />
+   <div class="ball" />
+   <div class="ball" />
+   <div class="ball" />
 </div>
