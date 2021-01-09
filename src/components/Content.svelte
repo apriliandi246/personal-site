@@ -1,7 +1,7 @@
 <style>
    p {
       color: #ccd8e2;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       line-height: 24px;
       font-family: monospace;
    }
@@ -15,7 +15,7 @@
       padding: 11px;
       color: #ccd8e2;
       margin-top: 17px;
-      font-size: 1.3rem;
+      font-size: 1.1rem;
       font-weight: bold;
       margin-right: 20px;
       border-radius: 4px;
@@ -50,7 +50,7 @@
    }
 
    footer p {
-      font-size: 2rem;
+      font-size: 1.9rem;
       margin-inline: 20px;
    }
 
@@ -81,7 +81,7 @@
 
    .about__name {
       color: #7488a5;
-      font-size: 3rem;
+      font-size: 2.8rem;
       margin-top: 14px;
       font-weight: bold;
       line-height: 47px;
@@ -92,7 +92,7 @@
    .title {
       color: #ffffff;
       margin-top: 14px;
-      font-size: 1.8rem;
+      font-size: 1.6rem;
       font-weight: bold;
       line-height: 44px;
       margin-bottom: 5px;
@@ -140,7 +140,7 @@
       padding: 12px;
       color: #ccd8e2;
       margin-top: 20px;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       font-weight: bold;
       margin-right: 10px;
       border-radius: 20px;
@@ -172,7 +172,7 @@
 
    .project__more p {
       color: #ccd8e2;
-      font-size: 1.2rem;
+      font-size: 1.1rem;
       font-weight: bold;
       letter-spacing: 1px;
    }

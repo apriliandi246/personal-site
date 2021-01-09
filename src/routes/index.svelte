@@ -10,7 +10,7 @@
    onMount(() => {
       setTimeout(() => {
          isReady = true;
-      }, 2900);
+      }, 2300);
    });
 </script>
 
@@ -87,7 +87,7 @@
    {#if isReady === true}
       <Nav />
 
-      <div class="container" in:fade={{ duration: 500 }}>
+      <div class="container" in:fade={{ duration: 400 }}>
          <Introdcution />
       </div>
    {/if}
