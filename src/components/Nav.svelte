@@ -6,7 +6,7 @@
    nav {
       display: flex;
       margin-top: 20px;
-      margin-right: 24px;
+      margin-right: 28px;
       align-items: center;
       justify-content: flex-end;
    }
@@ -50,6 +50,14 @@
    .twitter_icon:hover,
    .linkedin_icon:hover {
       transform: scale(1.2);
+   }
+
+   @media screen and (min-width: 1500px) {
+      nav {
+         top: 0;
+         right: 0;
+         position: fixed;
+      }
    }
 </style>
 

@@ -15,6 +15,10 @@
       font-family: monospace;
    }
 
+   span {
+      letter-spacing: 1px;
+   }
+
    ul {
       display: flex;
       flex-direction: column;
@@ -28,19 +32,10 @@
       font-weight: bold;
       margin-right: 20px;
       border-radius: 4px;
+      letter-spacing: 1.3px;
       display: inline-block;
       font-family: monospace;
       background-color: #0a192f;
-   }
-
-   li a {
-      color: #ccd8e2;
-      text-decoration: none;
-   }
-
-   li a:hover {
-      color: #7488a5;
-      text-decoration: underline;
    }
 
    ul li::before {
@@ -204,13 +199,23 @@
    .contact,
    .projects,
    .skills {
-      margin-top: 150px;
+      margin-top: 160px;
    }
 
    @media screen and (min-width: 770px) {
       p {
          line-height: 26px;
-         font-size: calc(1.2rem + 0.1px - 2px);
+      }
+
+      a,
+      .project a,
+      a .more-project {
+         font-size: 1.4rem;
+      }
+
+      p,
+      ul li {
+         font-size: 1.3rem;
       }
    }
 </style>
@@ -226,7 +231,8 @@
          I'm self taught programmer focus on Front-End.
       </p>
       <p class="about__desc-2">
-         Currently, i am working for my personal project.
+         Currently, i am working for my personal project and that project focus
+         on front-end (web application or some tools).
       </p>
    </section>
 
@@ -244,7 +250,6 @@
          <li>Javascript</li>
          <li>Typescript</li>
          <li>Svelte</li>
-         <li>Sapper</li>
          <li>Vuejs</li>
          <li>Git</li>
       </ul>
@@ -322,7 +327,7 @@
          rel="noopener"
          class="project__more">
          <img src="/github.png" alt="github" />
-         <p>More projects</p>
+         <p class="more-project">More projects</p>
       </a>
    </section>
 
@@ -331,17 +336,11 @@
       <div class="line" />
 
       <p class="contact__desc">
-         I am often active on Twitter, but you can also contact me via E-mail.
+         I am often active on Twitter, but you can also contact me via Email.
       </p>
 
       <ul>
          <li on:click={copyEmail} class="email">apriliandi642@gmail.com</li>
-         <li>
-            <a
-               href="https://twitter.com/calon_jenazah__"
-               target="_blank"
-               rel="noopener">My Twitter account</a>
-         </li>
       </ul>
    </section>
 

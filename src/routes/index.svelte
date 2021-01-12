@@ -78,7 +78,7 @@
 </style>
 
 <svelte:head>
-   <title>Apriliandi</title>
+   <title>apriliandi</title>
 </svelte:head>
 
 {#if isReady === false}
@@ -93,7 +93,7 @@
    {#if isReady === true}
       <Nav />
 
-      <div class="container" in:fade={{ duration: 400 }}>
+      <div class="container" in:fade={{ duration: 500 }}>
          <Introdcution />
       </div>
    {/if}

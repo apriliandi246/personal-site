@@ -36,7 +36,7 @@
 
    .modal__content {
       margin-top: 25px;
-      font-size: 1.5rem;
+      font-size: 1.3rem;
       margin-bottom: 25px;
       letter-spacing: 0.8px;
       word-wrap: break-word;
@@ -192,8 +192,8 @@
 
 <div class="modal" transition:scale={{ duration: 350 }}>
    <div class="modal__body">
-      <h1 class="modal__head">🙌</h1>
-      <p class="modal__content">Email copied....</p>
+      <h1 class="modal__head">😀</h1>
+      <p class="modal__content">👌 Email copied....</p>
       <div class="modal__footer">
          <button
             on:click={() => ($showModal = false)}
