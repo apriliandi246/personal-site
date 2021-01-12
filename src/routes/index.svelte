@@ -1,7 +1,9 @@
 <script>
    import { onMount } from "svelte";
+   import { showModal } from "../store";
    import { fade } from "svelte/transition";
    import Nav from "../components/Nav.svelte";
+   import Modal from "../components/Modal.svelte";
    import Bouncer from "../components/Bouncer.svelte";
    import Introdcution from "../components/Content.svelte";
 
@@ -10,7 +12,7 @@
    onMount(() => {
       setTimeout(() => {
          isReady = true;
-      }, 2300);
+      }, 2900);
    });
 </script>
 
@@ -81,6 +83,10 @@
 
 {#if isReady === false}
    <Bouncer />
+{/if}
+
+{#if isReady === true && $showModal === true}
+   <Modal />
 {/if}
 
 {#key isReady}

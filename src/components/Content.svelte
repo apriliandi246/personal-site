@@ -1,3 +1,12 @@
+<script>
+   import { showModal } from "../store";
+
+   function copyEmail() {
+      navigator.clipboard.writeText("apriliandi642@gmail.com");
+      $showModal = true;
+   }
+</script>
+
 <style>
    p {
       color: #ccd8e2;
@@ -52,6 +61,15 @@
    footer p {
       font-size: 1.9rem;
       margin-inline: 20px;
+   }
+
+   li.email {
+      cursor: pointer;
+      transition: transform 0.2s;
+   }
+
+   li.email:hover {
+      transform: scale(1.02);
    }
 
    .container {
@@ -317,7 +335,7 @@
       </p>
 
       <ul>
-         <li>apriliandi642@gmail.com</li>
+         <li on:click={copyEmail} class="email">apriliandi642@gmail.com</li>
          <li>
             <a
                href="https://twitter.com/calon_jenazah__"
