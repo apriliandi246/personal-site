@@ -17,6 +17,13 @@
       transition: transform 0.2s;
    }
 
+   .gitlab_icon {
+      width: 45px;
+      height: 45px;
+      margin-left: 20px;
+      transition: transform 0.2s;
+   }
+
    .linkedin_icon {
       width: 22px;
       height: 22px;
@@ -26,7 +33,7 @@
    .twitter_icon {
       width: 42px;
       height: 42px;
-      margin-inline: 28px;
+      margin-inline: 20px;
       transition: transform 0.2s;
    }
 
@@ -46,6 +53,7 @@
       margin-left: 18px;
    }
 
+   .gitlab_icon:hover,
    .github_icon:hover,
    .twitter_icon:hover,
    .linkedin_icon:hover {
@@ -65,6 +73,9 @@
    <div class="line-1" />
    <a href="https://github.com/apriliandi246" target="_blank" rel="noopener">
       <img class="github_icon" src="/github.png" alt="github" />
+   </a>
+   <a href="https://gitlab.com/apriliandi246" target="_blank" rel="noopener">
+      <img class="gitlab_icon" src="/gitlab.png" alt="gitlab" />
    </a>
    <a href="https://twitter.com/calon_jenazah__" target="_blank" rel="noopener">
       <img class="twitter_icon" src="/twitter.png" alt="twitter" />
