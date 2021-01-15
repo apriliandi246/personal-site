@@ -12,14 +12,36 @@
    onMount(() => {
       setTimeout(() => {
          isReady = true;
-      }, 2900);
+      }, 100);
    });
 </script>
+
+<svelte:head>
+   <title>apriliandi</title>
+</svelte:head>
+
+{#if isReady === false}
+   <Bouncer />
+{/if}
+
+{#if isReady === true && $showModal === true}
+   <Modal />
+{/if}
+
+{#key isReady}
+   {#if isReady === true}
+      <div class="container" in:fade={{ duration: 500 }}>
+         <Nav />
+         <Introdcution />
+         <Nav />
+      </div>
+   {/if}
+{/key}
 
 <style>
    .container {
       width: 82%;
-      margin: 80px auto 45px auto;
+      margin: 40px auto 45px auto;
    }
 
    @media screen and (min-width: 815px) {
@@ -76,25 +98,3 @@
       }
    }
 </style>
-
-<svelte:head>
-   <title>apriliandi</title>
-</svelte:head>
-
-{#if isReady === false}
-   <Bouncer />
-{/if}
-
-{#if isReady === true && $showModal === true}
-   <Modal />
-{/if}
-
-{#key isReady}
-   {#if isReady === true}
-      <Nav />
-
-      <div class="container" in:fade={{ duration: 500 }}>
-         <Introdcution />
-      </div>
-   {/if}
-{/key}

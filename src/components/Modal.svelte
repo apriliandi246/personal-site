@@ -3,6 +3,19 @@
    import { scale } from "svelte/transition";
 </script>
 
+<div class="modal" transition:scale={{ duration: 350 }}>
+   <div class="modal__body">
+      <h1 class="modal__head">😀</h1>
+      <p class="modal__content">👌 Email copied....</p>
+      <div class="modal__footer">
+         <button
+            on:click={() => ($showModal = false)}
+            class="modal__cancel-button">Close</button
+         >
+      </div>
+   </div>
+</div>
+
 <style>
    .modal {
       top: 0;
@@ -189,15 +202,3 @@
       }
    }
 </style>
-
-<div class="modal" transition:scale={{ duration: 350 }}>
-   <div class="modal__body">
-      <h1 class="modal__head">😀</h1>
-      <p class="modal__content">👌 Email copied....</p>
-      <div class="modal__footer">
-         <button
-            on:click={() => ($showModal = false)}
-            class="modal__cancel-button">Close</button>
-      </div>
-   </div>
-</div>

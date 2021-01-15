@@ -2,6 +2,13 @@
    import { fade } from "svelte/transition";
 </script>
 
+<div class="bouncer" out:fade={{ duration: 200 }}>
+   <div class="bouncer_ball" />
+   <div class="bouncer_ball" />
+   <div class="bouncer_ball" />
+   <div class="bouncer_ball" />
+</div>
+
 <style>
    .bouncer {
       top: 52%;
@@ -50,10 +57,3 @@
       }
    }
 </style>
-
-<div class="bouncer" out:fade={{ duration: 200 }}>
-   <div class="bouncer_ball" />
-   <div class="bouncer_ball" />
-   <div class="bouncer_ball" />
-   <div class="bouncer_ball" />
-</div>

@@ -2,89 +2,62 @@
    import { fade } from "svelte/transition";
 </script>
 
+<div class="container" in:fade={{ duration: 500 }}>
+   <div class="right">
+      <div class="line-3" />
+      <div class="line-2" />
+      <div class="line-1" />
+   </div>
+
+   <div class="left">
+      <div class="line-3" />
+      <div class="line-2" />
+      <div class="line-1" />
+   </div>
+</div>
+
 <style>
-   nav {
+   .container {
       display: flex;
-      margin-top: 20px;
-      margin-right: 28px;
+      margin-bottom: 60px;
       align-items: center;
-      justify-content: flex-end;
+      justify-content: space-between;
    }
 
-   .github_icon {
-      width: 25px;
-      height: 25px;
-      transition: transform 0.2s;
+   .right {
+      display: flex;
+      margin-bottom: 10px;
+      align-items: flex-start;
+      flex-direction: column;
    }
 
-   .gitlab_icon {
-      width: 45px;
-      height: 45px;
-      margin-left: 20px;
-      transition: transform 0.2s;
-   }
-
-   .linkedin_icon {
-      width: 22px;
-      height: 22px;
-      transition: transform 0.2s;
-   }
-
-   .twitter_icon {
-      width: 42px;
-      height: 42px;
-      margin-inline: 20px;
-      transition: transform 0.2s;
+   .left {
+      display: flex;
+      margin-bottom: 10px;
+      align-items: flex-end;
+      flex-direction: column;
    }
 
    .line-1,
-   .line-2 {
-      width: 50px;
-      height: 3px;
+   .line-2,
+   .line-3 {
       border-radius: 20px;
+      margin-bottom: 10px;
       background-color: #8892b0;
    }
 
    .line-1 {
-      margin-right: 18px;
+      width: 60px;
+      height: 4px;
    }
 
    .line-2 {
-      margin-left: 18px;
+      width: 90px;
+      height: 4px;
    }
 
-   .gitlab_icon:hover,
-   .github_icon:hover,
-   .twitter_icon:hover,
-   .linkedin_icon:hover {
-      transform: scale(1.2);
-   }
-
-   @media screen and (min-width: 1500px) {
-      nav {
-         top: 0;
-         right: 0;
-         position: fixed;
-      }
+   .line-3 {
+      width: 120px;
+      height: 4px;
    }
 </style>
-
-<nav in:fade={{ duration: 500 }}>
-   <div class="line-1" />
-   <a href="https://github.com/apriliandi246" target="_blank" rel="noopener">
-      <img class="github_icon" src="/github.png" alt="github" />
-   </a>
-   <a href="https://gitlab.com/apriliandi246" target="_blank" rel="noopener">
-      <img class="gitlab_icon" src="/gitlab.png" alt="gitlab" />
-   </a>
-   <a href="https://twitter.com/calon_jenazah__" target="_blank" rel="noopener">
-      <img class="twitter_icon" src="/twitter.png" alt="twitter" />
-   </a>
-   <a
-      href="https://www.linkedin.com/in/farhan-apriliandi-934442191/"
-      target="_blank"
-      rel="noopener">
-      <img class="linkedin_icon" src="/linkedin.png" alt="linkedin" />
-   </a>
-   <div class="line-2" />
-</nav>
