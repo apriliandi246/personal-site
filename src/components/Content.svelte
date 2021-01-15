@@ -251,7 +251,6 @@
          <li>Typescript</li>
          <li>Svelte</li>
          <li>Vuejs</li>
-         <li>Git</li>
       </ul>
    </section>
 
