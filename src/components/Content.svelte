@@ -76,6 +76,7 @@
 
          <span class="project__tech">Svelte</span>
          <span class="project__tech">Sapper</span>
+         <span class="project__tech">Firebase</span>
       </div>
 
       <div class="project">
