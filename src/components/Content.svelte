@@ -156,7 +156,7 @@
             <a
                href="https://www.linkedin.com/in/farhan-apriliandi-934442191/"
                target="_blank"
-               rel="noopener">Linkedin</a
+               rel="noopener">LinkedIn</a
             >
          </li>
          <li on:click={copyEmail} class="email">apriliandi642@gmail.com</li>
