@@ -3,7 +3,11 @@
    import { scale } from "svelte/transition";
 </script>
 
-<div class="modal" transition:scale={{ duration: 350 }}>
+<div
+   class="modal"
+   transition:scale={{ duration: 350 }}
+   on:click|self={() => ($showModal = false)}
+>
    <div class="modal__body">
       <h1 class="modal__head">😀</h1>
       <p class="modal__content">👌 Email copied....</p>
@@ -66,10 +70,10 @@
       cursor: pointer;
       font-size: 1rem;
       font-weight: bold;
-      border-radius: 2px;
+      border-radius: 10px;
       letter-spacing: 1.2px;
       box-sizing: border-box;
-      border: 1px solid #8892b0;
+      border: 3px solid #8892b0;
       background-color: #0a192f;
       transition: transform 0.2s;
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
@@ -89,7 +93,7 @@
    @media screen and (min-width: 650px) {
       .modal__body {
          width: 92%;
-         border-radius: 3px;
+         border-radius: 10px;
          border: 3px solid #8892b0;
       }
    }

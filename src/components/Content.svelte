@@ -37,7 +37,7 @@
          <li>Javascript</li>
          <li>Typescript</li>
          <li>Svelte</li>
-         <li>Vuejs</li>
+         <li>Vue</li>
       </ul>
    </section>
 
@@ -92,7 +92,7 @@
             and you can listen too.
          </p>
 
-         <span class="project__tech">Vuejs</span>
+         <span class="project__tech">Vue</span>
       </div>
 
       <div class="project">
