@@ -23,24 +23,6 @@
       </p>
    </section>
 
-   <section class="skills">
-      <h1 class="title">My Skills</h1>
-      <div class="line" />
-
-      <p class="skills__desc">
-         I primarily use the following technologies, tools, framework :
-      </p>
-
-      <ul>
-         <li>Html</li>
-         <li>Css</li>
-         <li>Javascript</li>
-         <li>Typescript</li>
-         <li>Svelte</li>
-         <li>Vue</li>
-      </ul>
-   </section>
-
    <section class="projects">
       <h1 class="title">My Projects</h1>
       <div class="line" />
@@ -293,11 +275,6 @@
       margin-top: 10px;
    }
 
-   .skills__desc {
-      margin-top: 28px;
-      margin-bottom: 10px;
-   }
-
    .project {
       padding: 20px;
       margin-top: 30px;
@@ -376,8 +353,7 @@
 
    footer,
    .contact,
-   .projects,
-   .skills {
+   .projects {
       margin-top: 160px;
    }
 
