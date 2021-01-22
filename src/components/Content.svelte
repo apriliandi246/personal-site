@@ -108,10 +108,6 @@
       <h1 class="title">Get in Touch</h1>
       <div class="line" />
 
-      <p class="contact__desc">
-         I am often active on Twitter, but you can also contact me via Email.
-      </p>
-
       <ul>
          <li>
             <a
@@ -125,13 +121,6 @@
                href="https://gitlab.com/apriliandi246"
                target="_blank"
                rel="noopener">Gitlab</a
-            >
-         </li>
-         <li>
-            <a
-               href="https://twitter.com/calon_jenazah__"
-               target="_blank"
-               rel="noopener">Twitter</a
             >
          </li>
          <li>
@@ -342,8 +331,7 @@
       letter-spacing: 1px;
    }
 
-   .contact__desc {
-      margin-top: 28px;
+   .contact .line {
       margin-bottom: 10px;
    }
 
