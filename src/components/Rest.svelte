@@ -22,6 +22,13 @@
       </li>
       <li>
          <a
+            href="https://twitter.com/calon_jenazah__"
+            target="_blank"
+            rel="noopener">Twitter</a
+         >
+      </li>
+      <li>
+         <a
             href="https://www.linkedin.com/in/farhan-apriliandi-934442191/"
             target="_blank"
             rel="noopener">LinkedIn</a
