@@ -1,56 +1,53 @@
 <script>
    import { onMount } from "svelte";
-   import { showModal } from "../store";
    import { fade } from "svelte/transition";
-   import Nav from "../components/Nav.svelte";
-   import Modal from "../components/Modal.svelte";
    import Bouncer from "../components/Bouncer.svelte";
-   import Introdcution from "../components/Content.svelte";
+   import LineSide from "./../components/LineSide.svelte";
+   import About from "../components/About.svelte";
+   import Projects from "../components/Projects.svelte";
+   import Rest from "../components/Rest.svelte";
+   import Footer from "../components/Footer.svelte";
 
    let isReady = false;
 
-   const consoleSignatureStyle =
-      "font-size: 16px;" +
-      "background: linear-gradient(to right, #e66465, #9198e5);" +
-      "color: white;" +
-      "text-align: center;" +
-      "padding: 10px 15px;" +
-      "width: 100%;" +
-      "border-radius: 20px;" +
-      "font-weight: bold;";
-
-   const consoleSignatureText = "%cHy there! 👋";
-
-   console.log(consoleSignatureText, consoleSignatureStyle);
-
    onMount(() => {
+      const consoleSignatureStyle =
+         "font-size: 16px;" +
+         "background: linear-gradient(to right, #e66465, #9198e5);" +
+         "color: white;" +
+         "text-align: center;" +
+         "padding: 10px 15px;" +
+         "width: 100%;" +
+         "border-radius: 20px;" +
+         "font-weight: bold;";
+
+      const consoleSignatureText = "%cHy there! 👋";
+      console.log(consoleSignatureText, consoleSignatureStyle);
+
       setTimeout(() => {
          isReady = true;
-      }, 2900);
+      }, 2300);
    });
 </script>
 
 <svelte:head>
-   <title>apriliandi</title>
+   <title>Apriliandi</title>
 </svelte:head>
 
 {#if isReady === false}
    <Bouncer />
 {/if}
 
-{#if isReady === true && $showModal === true}
-   <Modal />
+{#if isReady === true}
+   <div class="container" in:fade={{ duration: 500 }}>
+      <LineSide />
+      <About />
+      <Projects />
+      <Rest />
+      <Footer />
+      <LineSide />
+   </div>
 {/if}
-
-{#key isReady}
-   {#if isReady === true}
-      <div class="container" in:fade={{ duration: 500 }}>
-         <Nav />
-         <Introdcution />
-         <Nav />
-      </div>
-   {/if}
-{/key}
 
 <style>
    .container {

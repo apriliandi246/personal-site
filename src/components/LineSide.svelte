@@ -1,8 +1,4 @@
-<script>
-   import { fade } from "svelte/transition";
-</script>
-
-<div class="container" in:fade={{ duration: 500 }}>
+<div class="container">
    <div class="right">
       <div class="line-3" />
       <div class="line-2" />
