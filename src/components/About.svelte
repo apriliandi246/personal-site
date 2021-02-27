@@ -5,9 +5,9 @@
    <h3 class="about__intro">Hi, I am</h3>
    <h1 class="about__name">Farhan Apriliandi</h1>
    <p class="about__desc">
-      I'm self taught programmer focus on Front-End 👨‍💻 <br /><br />Currently, i
-      am working for my personal projects and that project focus on front-end
-      (web application or some tools)
+      I'm self-taught programmer who focuses on Front-End 👨‍💻 <br /><br
+      />Currently, i am working for my personal projects and that project focus
+      on front-end (web application or some tools)
    </p>
 </section>
 
@@ -52,7 +52,7 @@
       line-height: 47px;
       font-weight: bold;
       font-family: monospace;
-      text-shadow: 1px 1px #ffffff;
+      text-shadow: 2px 2px #3b6b86;
    }
 
    @media screen and (min-width: 770px) {

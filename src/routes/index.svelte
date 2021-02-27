@@ -31,7 +31,12 @@
 </script>
 
 <svelte:head>
-   <title>Apriliandi</title>
+   <title>Hi, I'm Farhan Apriliandi</title>
+   <meta
+      name="description"
+      content="Hi, I'm Farhan Apriliandi, I'm a self-taught programmer who focuses on web development especially on front-end and currently, i am working for my personal projects and that project focus
+      on front-end (web application or some tools) 👨‍💻👨‍💻👨‍💻"
+   />
 </svelte:head>
 
 {#if isReady === false}
@@ -39,7 +44,7 @@
 {/if}
 
 {#if isReady === true}
-   <div class="container" in:fade={{ duration: 500 }}>
+   <div class="home" in:fade={{ duration: 500 }}>
       <LineSide />
       <About />
       <Projects />
@@ -48,64 +53,3 @@
       <LineSide />
    </div>
 {/if}
-
-<style>
-   .container {
-      width: 82%;
-      margin: 40px auto 45px auto;
-   }
-
-   @media screen and (min-width: 815px) {
-      .container {
-         width: 76%;
-      }
-   }
-
-   @media screen and (min-width: 960px) {
-      .container {
-         width: 70%;
-      }
-   }
-
-   @media screen and (min-width: 1015px) {
-      .container {
-         width: 63%;
-      }
-   }
-
-   @media screen and (min-width: 1200px) {
-      .container {
-         width: 55%;
-      }
-   }
-
-   @media screen and (min-width: 1360px) {
-      .container {
-         width: 50%;
-      }
-   }
-
-   @media screen and (min-width: 1520px) {
-      .container {
-         width: 45%;
-      }
-   }
-
-   @media screen and (min-width: 1700px) {
-      .container {
-         width: 40%;
-      }
-   }
-
-   @media screen and (min-width: 1830px) {
-      .container {
-         width: 40%;
-      }
-   }
-
-   @media screen and (min-width: 1870px) {
-      .container {
-         width: 38%;
-      }
-   }
-</style>
