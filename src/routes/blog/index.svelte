@@ -6,6 +6,13 @@
 
 <div class="articles">
    <div class="article">
+      <a href="/blog/what-i-think-about-svelte" class="article__title"
+         >What I think about Svelte</a
+      >
+      <span class="article__date">2021-02-28</span>
+   </div>
+
+   <div class="article">
       <a href="/blog/the-phenomena-of-should-i-learn" class="article__title"
          >The phenomenon of "SHOULD I LEARN"</a
       >
@@ -28,7 +35,7 @@
    }
 
    .article {
-      margin-bottom: 55px;
+      margin-bottom: 46px;
    }
 
    .article__title {
