@@ -75,7 +75,7 @@
       rel="noopener"
       class="project__more"
    >
-      <img src="/github.png" alt="github" />
+      <img src="/github.png" width="32" height="32" alt="Github icon" />
       <p class="more-project">More projects</p>
    </a>
 </section>

@@ -70,8 +70,8 @@
    ul li {
       padding: 13px;
       color: #ffffff;
-      margin-bottom: 30px;
       font-size: 1rem;
+      margin-bottom: 30px;
       border-radius: 100px;
       letter-spacing: 1.3px;
       display: inline-block;

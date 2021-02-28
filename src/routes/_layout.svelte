@@ -4,7 +4,7 @@
 
 <style>
    .container {
-      width: 82%;
+      width: 86%;
       margin: 40px auto 45px auto;
    }
 
