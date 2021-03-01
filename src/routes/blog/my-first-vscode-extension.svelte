@@ -170,6 +170,7 @@
       padding: 20px;
       margin-bottom: 70px;
       border-radius: 10px;
+      word-wrap: break-word;
       border: 2px solid #8892b0;
       background-color: #2e1f3b;
       box-shadow: 11px 11px 1px 1px #8892b0;
@@ -180,6 +181,7 @@
       color: #e5ebde;
       font-weight: 550;
       line-height: 25px;
+      white-space: pre-wrap;
       font-family: monospace;
    }
 
