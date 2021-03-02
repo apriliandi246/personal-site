@@ -1,14 +1,10 @@
 <script>
    import { onMount } from "svelte";
-   import { fade } from "svelte/transition";
-   import Bouncer from "../components/Bouncer.svelte";
-   import LineSide from "./../components/LineSide.svelte";
-   import About from "../components/About.svelte";
-   import Projects from "../components/Projects.svelte";
    import Rest from "../components/Rest.svelte";
+   import About from "../components/About.svelte";
    import Footer from "../components/Footer.svelte";
-
-   let isReady = false;
+   import Projects from "../components/Projects.svelte";
+   import LineSide from "./../components/LineSide.svelte";
 
    onMount(() => {
       const consoleSignatureStyle =
@@ -23,10 +19,6 @@
 
       const consoleSignatureText = "%cHy there! 👋";
       console.log(consoleSignatureText, consoleSignatureStyle);
-
-      setTimeout(() => {
-         isReady = true;
-      }, 2300);
    });
 </script>
 
@@ -39,17 +31,14 @@
    />
 </svelte:head>
 
-{#if isReady === false}
-   <Bouncer />
-{/if}
+<LineSide />
 
-{#if isReady === true}
-   <div class="home" in:fade={{ duration: 500 }}>
-      <LineSide />
-      <About />
-      <Projects />
-      <Rest />
-      <Footer />
-      <LineSide />
-   </div>
-{/if}
+<About />
+
+<Projects />
+
+<Rest />
+
+<Footer />
+
+<LineSide />

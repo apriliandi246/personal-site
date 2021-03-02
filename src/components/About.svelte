@@ -2,7 +2,7 @@
    <h1 class="about__title">About Me</h1>
    <div class="line" />
 
-   <h3 class="about__intro">Hi, I am</h3>
+   <h1 class="about__intro">Hi, I am</h1>
    <h1 class="about__name">Farhan Apriliandi</h1>
    <p class="about__desc">
       I'm self-taught programmer who focuses on Front-End 👨‍💻
