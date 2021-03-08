@@ -5,11 +5,9 @@
    <h1 class="about__intro">Hi, I am</h1>
    <h1 class="about__name">Farhan Apriliandi</h1>
    <p class="about__desc">
-      I'm self-taught programmer who focuses on Front-End 👨‍💻
-   </p>
-   <p class="about__desc">
-      Currently, i am working for my personal projects and that project focus on
-      front-end (web application or some tools)
+      I'm self-taught programmer who focuses on Front-End 👨‍💻 <br /><br /> Currently,
+      i am working for my personal projects and that project focus on front-end (web
+      application or some tools)
    </p>
 </section>
 

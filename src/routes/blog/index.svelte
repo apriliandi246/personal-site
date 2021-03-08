@@ -1,5 +1,10 @@
 <svelte:head>
    <title>Blog</title>
+   <meta
+      name="description"
+      content="Hi, I'm Farhan Apriliandi, I'm a self-taught programmer who focuses on web development especially on front-end and currently, i am working for my personal projects and that project focus
+      on front-end (web application or some tools) 👨‍💻👨‍💻👨‍💻"
+   />
 </svelte:head>
 
 <a href="/" class="home">🏠</a>

@@ -1,5 +1,12 @@
 <svelte:head>
    <title>My first Vscode extension</title>
+   <meta
+      name="description"
+      content="We know that Vscode is the most popular text editor for programmers. A lot of
+   features we can use in Vscode and one of my favorite features is Vscode
+   extensions. We can use useful extensions for our productivity like code
+   formatted, linter, syntax highlighting, and more."
+   />
 </svelte:head>
 
 <a href="/blog" class="back">🏃 Back</a>

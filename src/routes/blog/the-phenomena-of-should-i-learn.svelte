@@ -1,5 +1,12 @@
 <svelte:head>
    <title>The phenomenon of "SHOULD I LEARN"</title>
+   <meta
+      name="description"
+      content="Maybe you think with this blog title, WHAT'S WRONG WITH THIS PHENOMENON.
+   Yes, that's not wrong but many people do this phenomenon all the time. For
+   example, if a new Javascript framework or library comes out and programmers
+   in some groups or some forum say SHOULD I LEARN THIS."
+   />
 </svelte:head>
 
 <a href="/blog" class="back">🏃 Back</a>

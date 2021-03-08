@@ -1,5 +1,12 @@
 <svelte:head>
    <title>What I think about Svelte</title>
+   <meta
+      name="description"
+      content="We know that the growing of Javascript is very fast. Maybe today you learn
+   some Javascript framework, but maybe next month or even next day will come
+   out another framework (ahhh sh*t here we go again). I think we as a
+   Javascript developer have a lot of option to choose some tools that useful for us"
+   />
 </svelte:head>
 
 <a href="/blog" class="back">🏃 Back</a>
@@ -12,8 +19,8 @@
    We know that the growing of Javascript is very fast. Maybe today you learn
    some Javascript framework, but maybe next month or even next day will come
    out another framework (ahhh sh*t here we go again). I think we as a
-   Javascript developer have a lot of option to choose some tools that useful to
-   u
+   Javascript developer have a lot of option to choose some tools that useful
+   for us
 </p>
 
 <p>
@@ -76,6 +83,8 @@
       code work very well.</b
    >
 </p>
+
+<p>Summary, just choose tool that you neeed or useful for you</p>
 
 <p>Yeahh, that is what I think about Svelte.... Thanks Svelte 🙏</p>
 
